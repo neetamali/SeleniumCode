@@ -8,9 +8,7 @@ public class DriverFactory {
 	//global access to that instance by creating getInstance method
 
 	//private constructor so no one else can create instance 
-	private DriverFactory() {
-		
-		
+	private DriverFactory() {		
 		
 	}
 	 private static DriverFactory driverfactinstance = new DriverFactory();
